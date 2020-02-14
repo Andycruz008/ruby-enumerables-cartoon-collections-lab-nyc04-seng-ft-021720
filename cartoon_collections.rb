@@ -4,8 +4,13 @@ def roll_call_dwarves(dwarves)
   end
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(planeteer_calls)
+  
+ def long_planeteer_calls(planeteer_calls)
+  planeteer_calls.any? { |call| call.length > 4 }
+end
+
+long_planeteer_calls(planeteer_calls)
 end
 
 def long_planeteer_calls# code an argument here
