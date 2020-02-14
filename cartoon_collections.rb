@@ -12,6 +12,7 @@ end
 end
 
 long_planeteer_calls(planeteer_calls)
+potentially_cheesy_items = %w[umbrella spinach cheddar helicopter]
 end
 
 def long_planeteer_calls# code an argument here
